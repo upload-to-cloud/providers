@@ -1,0 +1,11 @@
+{
+    "name": "@upload-to-cloud/providers",
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "devDependencies": {
+        "typescript": "^5.0.4"
+    },
+    "scripts": {
+        "build": "tsc index.ts --outDir dist"
+    }
+}

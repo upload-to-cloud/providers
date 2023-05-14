@@ -1,0 +1,14 @@
+{
+    "name": "@upload-to-cloud/gdrive",
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "dependencies": {
+        "@upload-to-cloud/providers": "*"
+    },
+    "devDependencies": {
+      "typescript": "^5.0.4"
+    },
+    "scripts": {
+      "build": "tsc index.ts --outDir dist --target ES6 --moduleResolution nodenext"
+    }
+}
